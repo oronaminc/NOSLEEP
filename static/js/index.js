@@ -59,7 +59,7 @@ function send() {
   msg.appendChild(node)
   chat.appendChild(msg)
   /*dddddddddd */
-
+  /* 이건 몰랐지~~~~~ */
   // 서버로 message 이벤트 전달 + 데이터와 함께
   socket.emit('message', {type: 'message', message: message})
 }
